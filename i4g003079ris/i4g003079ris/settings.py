@@ -55,7 +55,7 @@ ROOT_URLCONF = 'i4g003079ris.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['i4g003079ris/blog/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
